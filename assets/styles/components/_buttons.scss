@@ -1,0 +1,65 @@
+.btn{
+	border-radius: 12px;
+	font-family: 'Helvetica';
+}
+
+.btn-primary{
+	background: transparent !important;
+	border: 1px solid $brand-main !important;
+	color: $brand-main !important;
+}
+
+.btn-primary:hover{
+	background: $brand-success !important;
+	border-color: $brand-success !important;
+	color: #fff !important;
+}
+
+.btn-white{
+	background: transparent !important;
+	border: 1px solid #fff !important;
+	color: #fff !important;
+}
+
+.btn-white:hover{
+	background: #fff !important;
+	border-color: #fff !important;
+	color: $brand-main !important;
+}
+
+.btn-success{
+	background: transparent !important;
+	border: 1px solid $brand-success !important;
+	color: $brand-success !important;
+}
+
+.btn-success:hover{
+	background: $brand-success !important;
+	border-color: $brand-success !important;
+	color: #fff !important;
+}
+
+.btn-static{
+	width: 166px;
+	height: 60px;
+	background: transparent;
+	border: 1px solid $brand-main;
+	font-size: 16px;
+	white-space: normal;
+}
+
+.btn-static:hover,
+.btn-static.active{
+	background-color: $brand-success;
+	border: 1px solid $brand-success;
+	color: #fff;
+}
+
+.rev-btn:hover,
+.rev-btn{
+    border-radius: 12px;
+}
+
+@media only screen and (max-width : 768px) {
+	.btn{ font-size: 12px; }
+}

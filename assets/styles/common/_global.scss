@@ -1,0 +1,274 @@
+.font-robot{ font-family: 'Roboto'; }
+.main{ padding: 0 !important; margin: 0 !important }
+.row {margin-left: 0; margin-right: 0; }
+
+h1,h2,h3,h4,h5,h5{ font-family: 'Montserrat', sans-serif;}
+body, p{ font-family: 'Helvetica', arial; font-size: 14px; line-height: 22px; }
+button{ font-family: 'Helvetica' }
+a{ text-decoration: none; }
+h1{ font-size: 30px; line-height: 34px; margin-bottom: 40px; font-weight: 600; }
+h2{ font-size: 24px; line-height: 30px; margin-bottom: 25px; font-weight: 600; }
+h3{ font-size: 20px; margin-bottom: 25px;}
+p.small{ font-size: 12px; line-height: 18px; }
+
+a:link, a:visited {color: $brand-main; }
+a:link:active, a:visited:active {color: $brand-success; }
+a:hover{ color: $brand-success; }
+.bg-blue a,
+.bg-primary a,
+.bg-success a{ color: #fff; }
+.bg-success a:hover{ color: $brand-main; text-decoration: none; }
+.bg-primary a:hover{ color: $brand-success; text-decoration: none; }
+.bg-blue a:hover{ color: $brand-success; text-decoration: none; }
+
+// Effects
+.hover-success:hover{ color: $brand-success; }
+a.text-white:focus,
+.text-white a:focus{ color: #fff !important; }
+.c-pointer{ cursor: pointer; }
+.hidden{ visibility: hidden; }
+.text-gradient{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.03, rgb(225,65,100)),
+    color-stop(0.76, rgb(255,175,62))
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-blue{
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.03, rgb(81, 102, 131)),
+    color-stop(0.76, rgb(31, 179, 172))
+);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//Burger Menu
+.mobile-icon {display: inline-block; cursor: pointer; }
+.mobile-icon div{ height: 3px; margin: 5px; width: 32px; background: $brand-main; }
+.mobile-icon:hover > .line-1{ position: relative; top: -2px; }
+.mobile-icon:hover > .line-3{ position: relative; top: 2px; }
+.mobile-menu-selected{ display: inline-block; margin-left: 10px; position: relative; top: -9px; cursor: pointer; }
+.mobile-menu-items{ list-style: none; padding-left: 20px; display: none; }
+.mobile-menu-items li{ line-height: 30px; cursor: pointer; }
+.mobile-menu-items li:hover{ color: $brand-success; font-weight: bold; }
+
+.img-center{position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0; }
+.product-icon{ width: 80px; }
+.enterprise-icon{ width: 65px; }
+.social-icon-small{ width: 24px; height: 24px; }
+.social-icon-large{ width: 32px; height: 32px; }
+
+//Page view
+.container{max-width: 100% !important; padding: 0px;}
+.content-wrap{ max-width: 980px; margin: 0 auto; }
+.header-wrap{ max-width: 1369px !important; margin: 0 auto; }
+
+
+// Alignment
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+.text-center{ text-align: center; }
+
+//Padding
+.padding-right-40 {padding-right: 40px; }
+.padding-left-40 {padding-left: 40px; }
+.padding-left{ padding-left: 15px; }
+.padding-right{ padding-right: 15px; }
+.padding-v-80{ padding-top: 80px; padding-bottom: 80px; }
+.padding-top-80{ padding-top: 80px; }
+.padding-bottom-80{ padding-bottom: 80px; }
+.padding-v-40{ padding-top: 40px; padding-bottom: 40px; }
+.padding-top-40{ padding-top: 40px; }
+.padding-bottom-40{ padding-bottom: 40px; }
+.padding-v-20{ padding-top: 20px; padding-bottom: 20px; }
+.padding-top-20{ padding-top: 20px; }
+.padding-bottom-20{ padding-bottom: 20px; }
+.padding-left-15{ padding-left: 15px; }
+.padding-left-30{ padding-left: 30px; }
+.no-padding{ padding: 0; }
+.no-padding-left{ padding-left: 0; }
+.no-padding-right{ padding-right: 0; }
+.no-padding-v{ padding-top: 0; padding-bottom: 0; }
+.no-padding-h{ padding-left:0; padding-right: 0; }
+.padding-h-40{ padding-left: 40px; padding-right: 40px; }
+.padding-h-80{ padding-left: 80px; padding-right: 80px; }
+
+//Margin
+.margin-v-80{ margin-top: 80px; margin-bottom: 80px; }
+.margin-top-80{ margin-top: 80px; }
+.margin-bottom-80{ margin-bottom: 80px; }
+.margin-v-40{ margin-top: 40px; margin-bottom: 40px; }
+.margin-top-60{ margin-top: 60px; }
+.margin-bottom-60{ margin-bottom: 60px; }
+.margin-top-40{ margin-top: 40px; }
+.margin-bottom-40{ margin-bottom: 40px; }
+.margin-v-20{ margin-top: 20px; margin-bottom: 20px; }
+.margin-top-20{ margin-top: 20px; }
+.margin-bottom-20{ margin-bottom: 20px; }
+.margin-bottom-10{ margin-bottom: 10px; }
+.margin-h-5{ margin-left: 5px; margin-right: 5px; }
+.no-margin{ margin: 0; }
+.no-margin-left{ margin-left: 0; }
+.no-margin-right{ margin-right: 0; }
+
+//OWL Carousel
+.owl-wrap{ padding: 0 30px; }
+.owl-wrapper-outer .owl-item .item{ padding: 0 30px !important; }
+.owl-wrapper-outer .owl-item h6.label{ font-weight: 400; font-style: italic; }
+.owl-wrapper-outer .owl-item h6,
+.owl-wrapper-outer .owl-item p{ font-weight: 200; }
+.owl-controls{ display: none !important; }
+.customNavigation .btn.prev{left: 0; position: absolute; top: 20%; }
+.customNavigation .btn.next{right: 0; position: absolute; top: 20%; }
+
+// Scroll to top
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.7) url(../../assets/images/arrow-up-s.png) no-repeat scroll 3px 3px;
+    width: 51px;
+    height: 51px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 3px;
+}
+
+/* TextArea Placeholder */
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-ms-input-placeholder {
+  opacity: 0.5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff;
+  opacity: 1;
+  transition: opacity 250ms ease-in-out;
+}
+:focus:-moz-placeholder {
+  opacity: 0.5;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.align-md-center{margin: ($spacer / 2) auto; height: auto;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	// Remove all padding Left and Right to align all elements
+	[class*="padding-left"]{ padding-left: 0; }
+	[class*="padding-right"]{ padding-right: 0; }
+	[class*="col-xs"],
+	[class*="col-sm"],
+	[class*="col-md"]{ padding-left: 0; padding-right: 0; }
+	.content-wrap{ padding-left: 15px; padding-right: 15px; }
+
+	// Remove Borders
+	.right-dashed{ border-right: none !important; border-bottom: 1px dashed #fff; }
+	.align-sm-center{margin: ($spacer / 2) auto; height: auto;}
+
+	.img-center{ position: relative !important; }
+	.padding-md-top-40{ padding-top: 40px; }
+  .padding-md-top-20{ padding-top: 20px; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.align-xs-center{margin: ($spacer / 2) auto; height: auto;}
+  h1{ font-size: 20px; line-height: 26px; margin-bottom: 40px; font-weight: 600; }
+  h2{ font-size: 18px; line-height: 24px; margin-bottom: 25px; font-weight: 600; }
+  h3{ font-size: 16px; margin-bottom: 20px;}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
+}
+

@@ -1,0 +1,122 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+// Contact Form 7
+
+
+.main-contact .wpcf7-form p{
+    color: #fff;
+}
+
+form select,
+form textarea,
+form input[type=email],
+form input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 0;
+    color: #fff;   
+}
+
+form select{
+    padding-top: 8px !important; 
+    padding-bottom: 14px !important; 
+}
+
+form select option{ padding-left: 4px 3px; }
+
+form input[type=email],
+form input[type=text]{
+    padding-top: 14px !important; 
+    padding-bottom: 14px !important; 
+}
+
+
+form textarea{
+    resize: none;
+    min-height: 0;
+}
+
+form textarea,
+form input[type=text]:focus{
+    outline: none;
+}
+
+form input[type=submit],
+.main-contact .wpcf7-submit{
+    background: transparent !important;
+    border: 1px solid #fff !important;
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    color: #fff;
+    padding: 10px;  
+}
+
+form input[type=submit]:hover,
+.main-contact .wpcf7-submit:hover{
+    background: #fff !important;
+    color: $brand-main !important;
+}
+
+select .select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+}
+
+.select-white{
+
+}
+
+/* Hide Header and Footer */
+.header,
+#footer,
+#sitewide_cta{display: none;}
+
+/* Success Message */
+.main-contact .wpcf7-mail-sent-ok,
+.main-contact .wpcf7-response-output{
+    border: medium none !important;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Error Message */
+.wpcf7-not-valid-tip{ color: #d9534f !important }
+
+
+@media only screen and (max-width : 768px) {
+    .contact-info{ padding: 40px 20px 0; }
+    .contact-title{ padding-left: 20px !important; }
+    .main-contact{ padding: 0 20px !important; }
+}
+
+/* MODAL FORM */
+
+.plain .modal-header,
+.plain .modal-footer{ border: none !important; }
+.modal-dialog.medium{ width: 430px; }

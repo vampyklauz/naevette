@@ -1,0 +1,214 @@
+
+// Page Background
+.bg-gray{ background-color: #e5e5e5; }
+.bg-blue{ background-color: #395173; }
+.expert{ background: url(../../assets/images/leaf.png) no-repeat right bottom; }
+.bg-cloud{background: url(../../assets/images/cloud.png) no-repeat right; }
+.about-banner{background-image: url(../../assets/images/bg-about.jpg); }
+.business-software-banner{background-image: url(../../assets/images/bg-business.jpg); }
+.communication-banner{background-image: url(../../assets/images/bg-communication.png); }
+.application-banner{background-image: url(../../assets/images/code-half.jpg); }
+.infrastructure-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/WebConferencing.jpg); }
+.training-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/computers.jpg) ; }
+.training-resources-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/100_computer_training.jpg) ; }
+.bg-partners{ background: linear-gradient(rgba(113, 87, 125, 0.75), rgba(113, 87, 125, 0.75) ), url(../../assets/images/shutterstock_194848142.jpg); }
+.bg-enterprice-partners{ background: linear-gradient(to left, rgba(57, 81, 115, 0.8), rgba(32, 50, 76, 0.8)), url(../../assets/images/shutterstock_314449955.jpg); }
+.business-data-banner{ background: linear-gradient(to left, rgba(127, 104, 138, 0.8), rgba(183, 101, 154, 0.8) ), url(../../assets/images/shutterstock_228162115.jpg); }
+.enterprice-banner{ background: linear-gradient(to left, rgba(66, 167, 174, 0.8), rgba(77, 99, 129, 0.8)), url(../../assets/images/officework.jpg); }
+.bg-gradient{ background: linear-gradient(to right, #e14164, #ffae3e); }
+.bg-gradient-blue{ background: linear-gradient(to left, #395173, #20324c); }
+.bg-gradient-blue-rv{ background: linear-gradient(to right, #395173, #20324c); }
+.cloud-banner{background: linear-gradient(to right, #e54863, #feac40); }
+.bg-white{ background: #fff; } 
+
+
+//Effects
+.parallax{background-attachment: fixed; background-position: 0% 129px; background-repeat: no-repeat; background-size: 100%; }
+.parallax-cover{ background-attachment: fixed; background-position: 0% 129px; background-repeat: no-repeat; background-size: cover; }
+.parallax-small{background-attachment: fixed; background-position: 0%; background-repeat: no-repeat; background-size: cover; }
+.right-dashed{ border-right: 1px dashed #fff; }
+.bottom-dotted{ border-bottom: 3px dotted #000; }
+a.jump-anchor-80,
+a.jump-anchor-40,
+a.jump-anchor-20,
+a.jump-anchor { // Offset anchor jump with fixed header
+    display: block;
+    position: relative;
+    visibility: hidden;
+}
+a.jump-anchor{ top: -163px; }
+a.jump-anchor-80{ top: -243px; }
+a.jump-anchor-40{ top: -203px; }
+a.jump-anchor-20{ top: -162px; }
+
+// Text Color
+.text-white{ color: #fff; }
+.text-main{ color: $brand-main; }
+.text-purple{ color: #af538e; }
+.text-orange{ color: #e14164; }
+.text-blue{ color: #00a8a1; }
+
+// Border Color
+.bgr-white{ border-color: #fff; }
+.bgr-purple{ border-color: #af538e; }
+.bgr-orange{ border-color: #e14164; }
+.bgr-blue{ border-color: #00a8a1; }
+
+//About US
+.banner-intro{ padding-top: 80px; padding-bottom: 80px; }
+
+
+
+//Product Section
+.product-content{ margin-top: 100px; }
+.product-content.active{ visibility: visible; }
+.product-content.inactive{ visibility: hidden; display: none; }
+.product-menu button{ margin: 10px 5px; }
+
+
+// Partner Section
+.circle{ background: rgba(255,255,255, .5); width: 105px; height: 105px; border-radius: 50%; color: #fff; text-align: center; line-height: 105px; display: inline-block; margin: 0 22px 22px 22px; }
+.circle.multi-text{ line-height: 19px !important; padding-top: 34px; position: relative; top: 10px; }
+
+// Icon and Text
+.icon-text-center .box{ min-height: 150px; }
+.icon-text-center .box-small{ min-height: 130px; }
+.icon-text-center .text{ padding-right: 15px; position: absolute; text-align: center; width: 100%; bottom: 0; font-weight: bold; height: 30px; }
+.text-white .icon-text-center .text{ color: #fff; }
+.text-white .icon-text-center p:hover,
+.text-white .icon-text-center img:hover + p{ color: $brand-success; }
+
+// Carousel
+#training-carousel .owl-item{ display: table-cell; text-align: center; vertical-align: middle; height: 200px; }
+
+
+
+@media (max-width: 600px) {
+    .main-contact{ padding: 0 10px; }
+}
+@media (max-width: 800px) {
+    
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .product-content{ margin-top: 40px; }
+    .product-menu{ text-align: center !important; }
+    .pay-text{ margin-top: 60px; }
+    .pay-text h1{ text-align: center; }
+    .cloud-banner{
+        background-position: 0 78px;
+    }
+    .about-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/shutterstock_387274792.jpg); 
+        background-attachment: fixed;
+        background-position: 50% 78px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .application-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/code.jpg);
+        background-attachment: fixed;
+        background-position: 50% 78px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .business-software-banner{background: linear-gradient(to right, rgba(81, 102, 131, 0.8), rgba(31, 179, 172, 0.8)), url(../../assets/images/laptop.jpg);
+        background-attachment: fixed;
+        background-position: 50% 78px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .communication-banner{background: linear-gradient(to right, rgba(228, 71, 98, 0.8), rgba(254, 172, 64, 0.8)), url(../../assets/images/shutterstock_372378907.jpg);
+        background-attachment: fixed;
+        background-position: 50% 78px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .infrastructure-banner{
+        background-attachment: fixed;
+        background-position: 42% 78px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .training-banner{
+        background-attachment: fixed;
+        background-position: 42% 78px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .business-data-banner{ background: linear-gradient(to left, rgba(127, 104, 138, 0.8), rgba(183, 101, 154, 0.8) ), url(../../assets/images/code-light-small.jpg) no-repeat;
+        background-attachment: fixed;
+        background-position: 42% 78px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .enterprice-banner{ background: linear-gradient(to left, rgba(66, 167, 174, 0.8), rgba(77, 99, 129, 0.8)), url(../../assets/images/officework.jpg); 
+        background-attachment: fixed;
+        background-position: 42% 78px;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+
+    .enterprise .margin-top-80{ margin: 0; }
+    
+    .circle{ margin: 0 14px 22px; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .banner-intro{ padding-left: 15px; padding-right: 15px; }
+    .icon-text-center .text{ padding-right: 0 !important; }
+    .product-content.inactive{ visibility: visible; display: inherit; }
+    .bg-payment{ background: url(../../assets/images/payment-cirle.png) no-repeat; background-size: 60%; background-position: 50%; }
+    .circle{ height: 70px; width: 70px; line-height: 70px; margin: 0 2px 22px; font-size: 11px; }
+    .circle.multi-text{ line-height: 13px !important; padding-top: 20px; top: 5px; }
+    [class*="-banner"]{ background-position: 50% 0px; }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    [class*="-banner"]{ background-position: 50% 58px; }
+    .small-mobile-icon{ width: 88px; height: 88px; }
+    .small-mobile-icon-h{ width: 88px; height: 80px; }
+    .small-mobile-icon-v{ width: 80px; height: 88px; }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .bg-cloud{background: url(../../assets/images/cloud-small.png) no-repeat right; }
+}

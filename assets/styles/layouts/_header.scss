@@ -1,0 +1,138 @@
+// Contact
+header { position: fixed; width: 100%; top: 0; z-index: 10; }
+header .contact_wrap{ font-family: 'Helvetica', arial; color: #fff; padding: 8px 0 8px 5px; top: 0; width: 100%; z-index: 9; }
+header .contact_wrap .menu-icon-x{display: inline-block; float: right; position: relative; right: 23px; top: 15px; }
+header .contact_info{ display: inline; margin-left: 5px; font-size: 11pt; }
+header .contact_social img {margin-left: 5px; }
+.header-dummy{ height: 124px; }
+
+// Navigator
+header .nav-wrap{ background-color: $brand-success; opacity: .9; top: 0; padding: 9px 0 7px; width: 100%; z-index: 9; }
+header .nav-wrap .small-menu {cursor: pointer; min-width: 324px; display: inline-block; margin-right: 70px; position: relative; text-align: left; top: -9px; }
+header .small-menu .sm-first{ display: inline-block; border: 1px solid #fff; border-right: none; border-radius: 12px 0 0 12px; padding: 8px 16px 7px; position: relative; left: 3px}
+header .small-menu .sm-second{ display: inline-block; border: 1px solid #fff; border-left: none; border-radius: 0px 12px 12px 0; padding: 8px 40px 7px; position: relative; right: 3px}
+header .small-menu .active{background-color: $brand-success-dark;}
+header .small-menu div a{ font-family: 'Helvetica'; font-size: 12pt; color: #fff; display: block; text-decoration: none; }
+header .menu-icon .icon-1.hover{ position: relative; top: -1px; }
+header .menu-icon .icon-3.hover{ position: relative; top: 1px; }
+header .nav-wrap .menu-icon{ display: inline-block; padding: 10px 6px; border: 1px solid #fff; border-radius: 26px; cursor: pointer; position: relative; top: 11px; }
+header .menu-icon div{ content: ' '; width: 26px; height: 2px; background: #fff; margin: 6px;}
+header .nav-primary-wrap.enterprise{ background: $brand-primary; }
+header .nav-primary-wrap{ position: fixed; width: 0; top: 0; margin-top: 40px; opacity: .9; transition: 0.2s; overflow: hidden; background-color: $menu-primary; height: 100%; right: 0px; z-index: 9999; }
+header .nav-primary-wrap.closed{ width: 0; }
+header .nav-primary-wrap.open{ width: 41% !important; min-width: 430px; }
+header .nav-primary-wrap .small-menu{ min-width: 324px; margin-right: 70px; }
+header .main-menu { margin: 40px 0 0 40px; }
+header .main-menu ul li { margin: 7px 0;  }
+header .main-menu ul li a { color: #fff; font-size: 18px; font-family: 'Helvetica'; font-weight: 300; display: block; }
+header .main-menu ul li a span{ font-size: 18px; color: #ccc; }
+header .main-menu ul li a:hover{ color: $brand-primary; text-decoration: none; }
+header .main-menu ul li.current_page_item > a{ text-decoration: underline; }
+header .main-menu ul li .sub-menu{ margin: 6px 0 0 16px; }
+header .main-menu ul li .sub-menu li{ margin: 0 !important; }
+header .main-menu ul li .sub-menu li a{ font-size: 14px; }
+header .main-menu ul{ list-style: none; padding: 0 20px 0 0 !important; }
+header .enterprise .main-menu li a:hover{ color: $brand-success; text-decoration: none; }
+header .menu-icon-small {display: inline-block; position: absolute; right: 18px; top: 22px; cursor: pointer; }
+header .menu-icon-small div{ height: 3px; margin: 5px; width: 26px; background: #fff; display: none; }
+header .menu-icon-small:hover > .icon-1{ position: relative; top: -1px; }
+header .menu-icon-small:hover > .icon-3{ position: relative; top: 1px; }
+header .nav-primary .menu-icon{ border: 1px solid #fff; border-radius: 28px; padding: 12px; display: inline-block; cursor: pointer; }
+
+//Slider
+.tp-leftarrow:before {content: url(../../assets/images/arrow-left-s.png) !important; }
+.tp-rightarrow:before {content: url(../../assets/images/arrow-right-s.png) !important; }
+.h-comments-title small, .h-feature-headline span i, .tp-bullets.simplebullets.navbar, .tp-bullets.simplebullets.navbar-old, .tp-leftarrow.default, .tp-rightarrow.default, .x-portfolio-filters-menu, .jp-seek-bar {
+   background-color: transparent !important;
+}
+.hesperiden.tparrows{ background: none !important; }
+.x-slider-scroll-bottom {border: none !important; }
+
+
+/*==========  Mobile First Method  ==========*/
+
+@media ( max-height: 768px ){
+	header .main-menu ul.nav{ overflow-y: scroll; height: 40vh; }
+	header .main-menu{ position: relative; right: -20px; }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1440px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .nav-primary-wrap.open .menu-icon{ border: medium none; padding: 0; position: fixed; right: 20px; top: 12px; }
+	header .nav-primary .small-menu{ margin-right: 20px; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .nav-wrap .small-menu{ margin-right: 20px; }	
+	header .nav-wrap,
+	header .nav-wrap .nav-main{ text-align: center; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .nav-primary-wrap{ margin-top: 79px; }
+	header .nav-primary-wrap.open .menu-icon{ top: 22px !important; }
+	header .nav-wrap .nav-main{ top: 12px; }
+	header .contact_social,
+	header .contact_social img,
+	header .nav-wrap .menu-icon{ visibility: hidden; display: none; }
+	header .nav-wrap .small-menu{ margin-right: 0 !important; }
+	header .menu-icon-small div{ display: table; }
+	.header-dummy{ height: 76px; }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	header .contact_info span{ visibility: hidden; display: none; }
+	header .menu-icon-small{ top: 22px; }
+
+	// Small Menu
+	header .small-menu{ display: inline !important; }
+	header .small-menu .sm-first{ border: 1px solid #fff; border-radius: 12px; margin-bottom: 20px; padding: 8px 16px 7px; position: relative; }
+	header .small-menu .sm-second{ border: 1px solid #fff; border-radius: 12px;  margin-bottom: 20px; padding: 8px 40px 7px; left: 5px; position: relative; }
+	header .nav-primary-wrap.open{ margin-top: 78px; min-width: 100%; }
+
+	header .nav-primary .menu-wrap{ text-align: center; }
+	header .nav-primary .small-menu .sm-second{ left: 13px !important; }
+	header .nav-primary .main-menu{ margin: 20px 0 0 0; }
+
+	.header-dummy{ height: 18px; }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+
