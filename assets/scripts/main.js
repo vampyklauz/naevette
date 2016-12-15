@@ -163,6 +163,27 @@
         owl_training.trigger('owl.prev');
       });
 
+      // Enterprice Carousel
+      var owl_enterprise = $("#enterprice-carousel");
+ 
+      owl_enterprise.owlCarousel({
+          items : 5, //10 items above 1000px browser width
+          itemsDesktop : [1000,3], //5 items between 1000px and 901px
+          itemsDesktopSmall : [900,2], // betweem 900px and 601px
+          itemsTablet: [600,1], //1 items between 600 and 0
+          itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
+          autoPlay: false,
+          stopOnHover: true
+      });
+
+      // Custom Navigation Events
+      $(".next").click(function(){
+        owl_enterprise.trigger('owl.next');
+      });
+      $(".prev").click(function(){
+        owl_enterprise.trigger('owl.prev');
+      });
+
     });
   })(jQuery);
 

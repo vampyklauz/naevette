@@ -157,8 +157,43 @@
 <!-- END Partner Section -->
 
 
+<!-- Start worked with Section -->
+<section class="padding-v-40 bg-white">
+	<h2 class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 text-center">Some of the business we have worked with</h2>
+	<div class="col-xs-12">
+		<div class="owl-wrap">
+			<div id="training-carousel" class="col-xs-10 offset-xs-1">
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/BNE Logo.png" width="100px">
+				</div>
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/img_mater-health- banner.jpg" width="180px">
+				</div>
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/BMA-Coal.jpg" width="130px">
+				</div>
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/QLD Department of Transport.jpg" width="180px">
+				</div>
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/Transport_for_NSW_logo_svg.png" width="130px">
+				</div>
+				<div class="item">
+					<img  class="img-center" src="<?php echo get_template_directory_uri(); ?>/assets/images/workwith/Qhealthlogo.png" width="100px">
+				</div>
+			</div>
+		</div>
+		<div class="customNavigation">
+			<a class="btn prev"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow-left-s.png" alt="naevette logo"></a>
+			<a class="btn next"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow-right-s.png" alt="naevette logo"></a>
+		</div>
+	</div>
+</section>
+<!-- End worked with Section -->
+
+
 <!-- Testimonials Section -->
-<section class="bg-gray padding-v-40">
+<!-- <section class="bg-gray padding-v-40">
 	<h2 class="text-center">What our clients say</h2>
 	<div class="col-xs-12 text-center margin-top-80">
 		<div class="owl-wrap">
@@ -202,7 +237,7 @@
 			<a class="btn next"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/arrow-right-s.png" alt="naevette logo"></a>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- END Testimonials Section -->
 
 <div class="hidden-sm-down">
