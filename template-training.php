@@ -170,8 +170,8 @@ if ( ! wp_is_mobile() ) {
 	get_template_part('templates/contact_form', 'page'); 
 }
 
-// Registration Modal form
-get_template_part('templates/registration-form', 'page'); 
 
 ?>
 </div>
+
+<?php get_template_part('templates/registration-form', 'page');  ?>
