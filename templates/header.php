@@ -37,8 +37,8 @@
     </div>
   </div>
   <div class="contact_wrap bg-primary">
-    <div class="container header-wrap">
-      <div class="hidden-sm-down">
+    <div class="container">
+      <div class="hidden-sm-down header-wrap">
         <div class="contact_info">Call us 1300 788 397 &nbsp; <span>| </span> &nbsp;<a href="#">info@naevette.com.au</a></div>
         <div class="contact_social d-inline-block">
           &nbsp; | &nbsp;

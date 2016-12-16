@@ -38,7 +38,7 @@
 				<p></p>
 				<p class="text-gradient-blue no-margin"><strong>Duration:</strong> 3 days</p>
 				<p class="text-gradient-blue no-margin"><strong>Cost:</strong> $2000 (+GST)</p>
-				<a href="#" class="text-gradient-blue"><u>Download course detail PDF</u></a>
+				<a href="<?php echo get_template_directory_uri(); ?>/pdf/Microsoft-App-V-5-0-App-Virtualisation.pdf" download  class="text-gradient-blue"><u>Download course detail PDF</u></a>
 				<p></p>
 				<p class="text-blue font-weight-bold">Upcoming sessions</p>
 				<p class="text-gradient-blue no-margin">Sydney</p>
@@ -47,6 +47,7 @@
 				<p class="text-gradient-blue no-margin">26 Apr - 28 Apr 2017</p>
 				<p></p>
 				<p class="text-blue font-weight-bold no-margin">Brisbane</p>
+				<p class="text-gradient-blue no-margin">22 Mar - 42 Mar 2017</p>
 				<a href="#" class="text-gradient-blue"><u>View Calendar</u></a>
 				<br>
 				<input type="button" class="btn btn-success margin-top-40" data-toggle="modal" data-target="#myModal" value="Register Now">
@@ -70,7 +71,7 @@
 				<p></p>
 				<p class="text-gradient-blue no-margin"><strong>Duration:</strong> 3 days</p>
 				<p class="text-gradient-blue no-margin"><strong>Cost:</strong> $2000 (+GST)</p>
-				<a href="#" class="text-gradient-blue"><u>Download course detail PDF</u></a>
+				<a href="<?php echo get_template_directory_uri(); ?>/pdf/Application-Packaging-MSI-EXE-Core-Skills.pdf" download class="text-gradient-blue"><u>Download course detail PDF</u></a>
 				<p></p>
 				<p class="text-blue font-weight-bold">Upcoming sessions</p>
 				<p class="text-gradient-blue no-margin">Sydney</p>

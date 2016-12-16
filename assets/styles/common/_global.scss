@@ -21,7 +21,7 @@ a:hover{ color: $brand-success; }
 .bg-primary a:hover{ color: $brand-success; text-decoration: none; }
 .bg-blue a:hover{ color: $brand-success; text-decoration: none; }
 
-// Effects
+/* Effects */
 .hover-success:hover{ color: $brand-success; }
 a.text-white:focus,
 .text-white a:focus{ color: #fff !important; }
@@ -50,7 +50,7 @@ a.text-white:focus,
   -webkit-text-fill-color: transparent;
 }
 
-//Burger Menu
+/* Burger Menu */
 .mobile-icon {display: inline-block; cursor: pointer; }
 .mobile-icon div{ height: 3px; margin: 5px; width: 32px; background: $brand-main; }
 .mobile-icon:hover > .line-1{ position: relative; top: -2px; }
@@ -66,18 +66,19 @@ a.text-white:focus,
 .social-icon-small{ width: 24px; height: 24px; }
 .social-icon-large{ width: 32px; height: 32px; }
 
-//Page view
+/* Page view */
 .container{max-width: 100% !important; padding: 0px;}
 .content-wrap{ max-width: 980px; margin: 0 auto; }
 .header-wrap{ max-width: 1369px !important; margin: 0 auto; }
 
 
-// Alignment
+
+/* Alignment */
 .text-left{ text-align: left; }
 .text-right{ text-align: right; }
 .text-center{ text-align: center; }
 
-//Padding
+/* Padding */
 .padding-right-40 {padding-right: 40px; }
 .padding-left-40 {padding-left: 40px; }
 .padding-left{ padding-left: 15px; }
@@ -104,7 +105,7 @@ a.text-white:focus,
 .padding-h-40{ padding-left: 40px; padding-right: 40px; }
 .padding-h-80{ padding-left: 80px; padding-right: 80px; }
 
-//Margin
+/* Margin */
 .margin-v-80{ margin-top: 80px; margin-bottom: 80px; }
 .margin-top-80{ margin-top: 80px; }
 .margin-bottom-80{ margin-bottom: 80px; }
@@ -124,7 +125,7 @@ a.text-white:focus,
 .no-margin-top{ margin-top: 0; }
 .no-margin-bottom{ margin-bottom: 0; }
 
-//OWL Carousel
+/* OWL Carousel */
 .owl-wrap{ padding: 0 30px; }
 .owl-wrapper-outer .owl-item .item{ padding: 0 30px !important; }
 .owl-wrapper-outer .owl-item h6.label{ font-weight: 400; font-style: italic; }
@@ -134,7 +135,27 @@ a.text-white:focus,
 .customNavigation .btn.prev{left: 0; position: absolute; top: 20%; }
 .customNavigation .btn.next{right: 0; position: absolute; top: 20%; }
 
-// Scroll to top
+/* Modal Vertical center */
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Scroll to top */
 #return-to-top {
     position: fixed;
     bottom: 20px;

@@ -149,3 +149,29 @@ select .select::-ms-expand { /* for IE 11 */
 
 .rmfield{ display: none; }
 .rminput{ width: 100% }
+
+
+
+/* FORM */
+.rmfield, .rminput{ padding: 0 !important; }
+.rmrow{ min-height: 0 !important; } 
+.buttonarea{ padding-left: 0 !important; padding-right: 0 !important; }
+
+.rm_form_field_type_paragraph{ margin: 0; position:relative; bottom: -12px; }
+
+#rm_next_form_page_button_2_1{
+    background: transparent !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    float: right;
+}
+
+#rm_next_form_page_button_2_1:hover{
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #040404 !important;
+}
+
+.close{ border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 22px; padding: 0 6px 2px; }
+.close:hover{ border-color: #fff }
+.close img{ width: 14px; }
