@@ -56,8 +56,8 @@
     </div>
   </div>
   <nav class="nav-wrap hidden-sm-down">
-    <div class="container header-wrap">
-      <div class="row">
+    <div class="container">
+      <div class="row header-wrap">
         <div class="logo col-xs-12 col-md-4 no-padding-left">
           <a href="home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/naevette-logo.png" alt="naevette logo" width="190px"></a>
         </div>

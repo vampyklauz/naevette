@@ -37,17 +37,19 @@ form input[type=text]{
 
 form select{
     padding-top: 8px !important; 
-    padding-bottom: 14px !important; 
+    padding-bottom: 10px !important;
+    background: url(../../assets/images/arrow-down.png) no-repeat;
+    background-size: 20px;
+    background-position:  right 0 center;
 }
 
-form select option{ padding-left: 4px 3px; }
+form select option{ margin: 4px 0; }
 
 form input[type=email],
 form input[type=text]{
     padding-top: 14px !important; 
     padding-bottom: 14px !important; 
-}
-
+} 
 
 form textarea{
     resize: none;
@@ -64,7 +66,7 @@ form input[type=submit],
     background: transparent !important;
     border: 1px solid #fff !important;
     border-radius: 15px !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: normal !important;
     text-transform: none !important;
     color: #fff;
@@ -80,6 +82,8 @@ form input[type=submit]:hover,
 select .select::-ms-expand { /* for IE 11 */
     display: none;
 }
+
+
 
 .select {
     -webkit-appearance: none !important;
@@ -120,3 +124,28 @@ select .select::-ms-expand { /* for IE 11 */
 .plain .modal-header,
 .plain .modal-footer{ border: none !important; }
 .modal-dialog.medium{ width: 430px; }
+
+#registration select,
+#registration input[type=email],
+#registration input[type=text]{
+    padding-top: 3px !important; 
+    padding-bottom: 6px !important; 
+}
+
+#registration label{
+    margin-bottom: 2px !important;
+}
+
+#registration p,
+#registration label,
+#registration select,
+#registration textarea,
+#registration input[type=email],
+#registration input[type=text]{
+    font-size: 14px;
+}
+
+.close{ opacity: .5; color: #fff; }
+
+.rmfield{ display: none; }
+.rminput{ width: 100% }

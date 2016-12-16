@@ -199,6 +199,11 @@
     this.style.height = (this.scrollHeight) + 'px';
   });
 
+  // Fix issue for TextArea auto height modal
+  $('.modal').on('shown.bs.modal', function (e) {
+   $('.modal textarea')[0].style.height = '28px'; 
+  })
+
   $('textarea').trigger('input');
 
   // Scroll to top
