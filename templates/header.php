@@ -6,7 +6,7 @@
   $business = ( $page_enterprise ) ? '':'active';
   $enterprise = ( $page_enterprise ) ? 'active':'';
 ?>
-<header class="navbar-top">
+<header class="site-header navbar-top">
   <div class="nav-primary-wrap <?php echo ($page_enterprise) ? 'enterprise' : ''; ?>">
     <div class="row">
       <div class="nav-primary col-xs-12 no-padding">

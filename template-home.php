@@ -4,6 +4,10 @@
  */
 ?>
 
+<div class="main-slider">
+<?php echo do_shortcode('[rev_slider alias="naevette"]'); ?>
+</div>
+
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
@@ -204,7 +208,7 @@
 <!-- Partner Section -->
 <section class="bg-partners parallax-small padding-v-40">
 	<h1 class="text-white text-center">We have worked with a broad<br>range of industries including</h1>
-	<div class="text-center margin-top-40 wow slideInRight">
+	<div class="text-center margin-top-40 wowMobile slideInRight">
 		<div class="circle">Finance</div>
 		<div class="circle">Legal</div>
 		<div class="circle">Medical</div>

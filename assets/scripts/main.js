@@ -191,6 +191,12 @@
   // WOWjs initialize
   new WOW().init();
 
+  wowMobile = new WOW({
+    boxClass: "wowMobile",
+    mobile: false
+  });
+  wowMobile.init();
+
   // TextArea auto height
   $('textarea').each(function () {
     this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
